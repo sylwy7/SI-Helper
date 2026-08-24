@@ -1,8 +1,6 @@
 <div align="center">
 
-<p align="center">
-  <img src="assets/logo.png" alt="SI Helper V4" width="700">
-</p>
+<img src="assets/logo.png" alt="SI Helper Logo" width="220"/>
 
 # 🎓 SI Helper v4.0 (LSSI & LVSI)
 ### Advanced MoonLoader Helper for B-Zone RPG
@@ -17,9 +15,54 @@
 
 **Un helper complet, modern și ultra-optimizat dedicat membrilor facțiunilor School Instructors (LS School Instructors & LV School Instructors) de pe comunitatea B-Zone RPG.**
 
-[Prezentare Generală](#-prezentare-generală) • [Selector Facțiune](#-selector-facțiune-lssi--lvsi) • [Funcționalități Cheie](#-funcționalități-cheie) • [Imagini & Interfață](#-galerie-imagini--meniuri) • [Ghid de Instalare](#-instalare--cerințe) • [Comenzi Complete](#-tabel-comenzi-complete) • [Changelog v4.0](#-changelog-v40-vs-v32)
+<p align="center">
+  <a href="#-prezentare-generală">
+    <img src="https://img.shields.io/badge/🌟_Prezentare-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Prezentare"/>
+  </a>
+  <a href="#-selector-facțiune-lssi--lvsi">
+    <img src="https://img.shields.io/badge/🏢_Selector_Facțiune-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Selector Faction"/>
+  </a>
+  <a href="#-funcționalități-cheie">
+    <img src="https://img.shields.io/badge/✨_Funcționalități-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Functionalitati"/>
+  </a>
+  <a href="#-galerie-imagini--meniuri">
+    <img src="https://img.shields.io/badge/📸_Galerie_Meniuri-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Galerie"/>
+  </a>
+  <br/>
+  <a href="#-instalare--cerințe">
+    <img src="https://img.shields.io/badge/📥_Ghid_Instalare-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Instalare"/>
+  </a>
+  <a href="#-tabel-comenzi-complete">
+    <img src="https://img.shields.io/badge/📋_Comenzi_Complete-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Comenzi"/>
+  </a>
+  <a href="#-changelog-v40-vs-v32">
+    <img src="https://img.shields.io/badge/📜_Changelog_v4.0-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Changelog"/>
+  </a>
+  <a href="#-autor--credite">
+    <img src="https://img.shields.io/badge/👨‍💻_Autor_&_Credite-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Autor"/>
+  </a>
+</p>
 
 </div>
+
+---
+
+<details open>
+<summary><b>🗺️ Cuprins & Navigare Rapidă (Click pentru a restrânge)</b></summary>
+<br/>
+
+| 📌 Secțiune | 📝 Detalii & Conținut | 🔗 Link Direct |
+| :--- | :--- | :---: |
+| **🌟 Prezentare Generală** | Viziune, arhitectură refactorizată și scopul modului | [Deschide](#-prezentare-generală) |
+| **🏢 Selector Facțiune** | Suport dedicat pentru LSSI & LVSI și comanda `/selectfaction` | [Deschide](#-selector-facțiune-lssi--lvsi) |
+| **✨ Funcționalități Cheie** | 3D HUD, Web Scraper Panel RPG, Smart `/id`, Live Preview | [Deschide](#-funcționalități-cheie) |
+| **📸 Galerie Imagini & Meniuri** | Screenshot-uri demonstrative pentru fiecare meniu | [Deschide](#-galerie-imagini--meniuri) |
+| **📥 Instalare & Cerințe** | Ghid pas cu pas pentru instalare și dependențe | [Deschide](#-instalare--cerințe) |
+| **📋 Tabel Comenzi Complete** | Toate cele 40+ comenzi structurate pe tabele | [Deschide](#-tabel-comenzi-complete) |
+| **📜 Changelog (v4.0 vs v3.2)** | Toate diferențele și optimizările față de v3.2 | [Deschide](#-changelog-v40-vs-v32) |
+| **👨‍💻 Autor & Credite** | Contact Discord și informații despre autor | [Deschide](#-autor--credite) |
+
+</details>
 
 ---
 
