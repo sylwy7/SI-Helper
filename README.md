@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="SI Helper Logo" width="220"/>
+<img src="assets/logo.png" alt="SI Helper Logo" width="1000"/>
 
 # 🎓 SI Helper v4.0 (LSSI & LVSI)
 ### Advanced MoonLoader Helper for B-Zone RPG
