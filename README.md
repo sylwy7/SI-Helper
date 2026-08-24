@@ -97,8 +97,6 @@ Modul se adaptează instantaneu facțiunii din care faci parte:
 
 ## 📸 Galerie Imagini & Meniuri
 
-> 💡 *Sugestie: Adaugă capturile de ecran în folderul `assets/` sau pe un host de imagini (ex: Imgur, GitHub Releases) și completează link-urile de mai jos.*
-
 ### 1. Meniul Principal de Testare Licențe (`/lssi` / `/lvsi` - Level 1-49)
 ![Meniu Principal Helper](assets/menu_main.png)
 *Meniul interactiv cu 5 tab-uri pentru testarea licențelor Flying, Sailing, Fishing, Weapon și Materials, selector de limbă și pași structurați.*
