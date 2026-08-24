@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="assets/logo.png" alt="SI Helper V4" width="100%">
+  <img src="assets/logo.png" alt="SI Helper V4" width="700">
 </p>
 
 # 🎓 SI Helper v4.0 (LSSI & LVSI)
