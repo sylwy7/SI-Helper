@@ -1,6 +1,9 @@
-# 🎓 SI Helper v4.0 (LSSI & LVSI) - Advanced MoonLoader Helper for B-Zone RPG
-
 <div align="center">
+
+<img src="assets/logo.png" alt="SI Helper Logo" width="220"/>
+
+# 🎓 SI Helper v4.0 (LSSI & LVSI)
+### Advanced MoonLoader Helper for B-Zone RPG
 
 ![GitHub release](https://img.shields.io/badge/Release-v4.0-00FF78?style=for-the-badge&logo=lua&logoColor=black)
 ![SA-MP](https://img.shields.io/badge/SA--MP-0.3.7-blue?style=for-the-badge)
