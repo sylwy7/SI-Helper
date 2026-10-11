@@ -4,10 +4,10 @@
   <img src="assets/logo.png" alt="SI Helper V4" width="700">
 </p>
 
-# 🎓 SI Helper v4.0 (LSSI & LVSI)
+# 🎓 SI Helper v4.1 (LSSI & LVSI)
 ### Advanced MoonLoader Helper for B-Zone RPG
 
-![GitHub release](https://img.shields.io/badge/Release-v4.0-00FF78?style=for-the-badge&logo=lua&logoColor=black)
+![GitHub release](https://img.shields.io/badge/Release-v4.1-00FF78?style=for-the-badge&logo=lua&logoColor=black)
 ![SA-MP](https://img.shields.io/badge/SA--MP-0.3.7-blue?style=for-the-badge)
 ![MoonLoader](https://img.shields.io/badge/MoonLoader-v0.26-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Server-B--Zone%20RPG-orange?style=for-the-badge)
@@ -37,11 +37,11 @@
   <a href="#-tabel-comenzi-complete">
     <img src="https://img.shields.io/badge/📋_Comenzi_Complete-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Comenzi"/>
   </a>
-  <a href="#-changelog-v40-vs-v32">
-    <img src="https://img.shields.io/badge/📜_Changelog_v4.0-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Changelog"/>
+  <a href="#-changelog-v41-vs-v40">
+    <img src="https://img.shields.io/badge/📜_Changelog_v4.1-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Changelog"/>
   </a>
   <a href="#-autor--credite">
-    <img src="https://img.shields.io/badge/👨‍💻_Autor_&_Credite-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Autor"/>
+    <img src="https://img.shields.io/badge/👨💻_Autor_&_Credite-161B22?style=for-the-badge&logoColor=00FF78&color=161B22" alt="Autor"/>
   </a>
 </p>
 
@@ -57,12 +57,12 @@
 | :--- | :--- | :---: |
 | **🌟 Prezentare Generală** | Viziune, arhitectură refactorizată și scopul modului | [Deschide](#-prezentare-generală) |
 | **🏢 Selector Facțiune** | Suport dedicat pentru LSSI & LVSI și comanda `/selectfaction` | [Deschide](#-selector-facțiune-lssi--lvsi) |
-| **✨ Funcționalități Cheie** | 3D HUD, Web Scraper Panel RPG, Smart `/id`, Live Preview | [Deschide](#-funcționalități-cheie) |
+| **✨ Funcționalități Cheie** | Noua licență Hunting (5+), 3D HUD, Web Scraper Panel RPG, Smart `/id` | [Deschide](#-funcționalități-cheie) |
 | **📸 Galerie Imagini & Meniuri** | Screenshot-uri demonstrative pentru fiecare meniu | [Deschide](#-galerie-imagini--meniuri) |
 | **📥 Instalare & Cerințe** | Ghid pas cu pas pentru instalare și dependențe | [Deschide](#-instalare--cerințe) |
-| **📋 Tabel Comenzi Complete** | Toate cele 40+ comenzi structurate pe tabele | [Deschide](#-tabel-comenzi-complete) |
-| **📜 Changelog (v4.0 vs v3.2)** | Toate diferențele și optimizările față de v3.2 | [Deschide](#-changelog-v40-vs-v32) |
-| **👨‍💻 Autor & Credite** | Contact Discord și informații despre autor | [Deschide](#-autor--credite) |
+| **📋 Tabel Comenzi Complete** | Toate cele 40+ comenzi structurate pe tabele (actualizate v4.1) | [Deschide](#-tabel-comenzi-complete) |
+| **📜 Changelog (v4.1 vs v4.0)** | Suport complet Hunting License, formatare multiline $\le 128$ chars & optimizări | [Deschide](#-changelog-v41-vs-v40) |
+| **👨💻 Autor & Credite** | Contact Discord și informații despre autor | [Deschide](#-autor--credite) |
 
 </details>
 
@@ -70,7 +70,7 @@
 
 ## 🌟 Prezentare Generală
 
-**SI Helper v4.0** reprezintă o reconstrucție totală a vechiului asistent pentru instructori. Construit pe o arhitectură modulară curată și integrat cu o temă modernă **#00FF78 Emerald Neon Dark**, modul oferă suport complet pentru ambele facțiuni (**LSSI** și **LVSI**), automatizări pentru teste (1-49), acordare fără test (50+), interogare directă pe panoul RPG via cookie-uri de sesiune, HUD 3D calibrat și rezolvare inteligentă a clan-tag-urilor.
+**SI Helper v4.1** reprezintă asistentul complet de ultimă generație pentru instructori. Construit pe o arhitectură modulară curată și integrat cu tema modernă **#00FF78 Emerald Neon Dark**, modul oferă suport complet pentru ambele facțiuni (**LSSI** și **LVSI**), automatizări pentru toate cele 6 licențe (inclusiv noua licență **Hunting License** pentru Level 5+), teste practice și teoretice (1-49), acordare fără test (50+), interogare directă pe panoul RPG via cookie-uri de sesiune, HUD 3D calibrat și rezolvare inteligentă a clan-tag-urilor.
 
 ---
 
@@ -85,11 +85,16 @@ Modul se adaptează instantaneu facțiunii din care faci parte:
 
 ## ✨ Funcționalități Cheie
 
+- 🎯 **Noua Licență Hunting (Level 5+):** Suport nativ complet pentru noul test introdus pe server:
+  - Tab dedicat în `/lssi` și `/lvsi` cu iconiță FontAwesome (🐾) și protecție automată de nivel ($\ge 5$).
+  - Comandă dedicată de start: `/sthunt <ID>`.
+  - Comenzi rapide pentru întrebări: `/hunt1` până la `/hunt6`.
+  - Întrebări bilingve (Română / Engleză) și sistem multiline `printAnswer` ce împarte automat răspunsurile lungi (precum cele 15 resurse de jupuire) pe 2-3 rânduri în chat, respectând strict limita de 128 de caractere din SA-MP.
 - 🎨 **Design Modern ImGui (#00FF78 Neon Dark):** Margini rotunjite, pictograme FontAwesome 5/6, animații fluide de tranziție (`Fade`) și suport bilingv (Română / Engleză) cu comutator instant în navbar.
 - 🏎️ **Preview 3D Calibrat & HUD Vehicul:** Randare nativă SA-MP a Maverick-ului și Speeder-ului fără fundal negru, rotit spre textul informativ, însoțit de bara de viață în timp real și buton local de toggle `[HP HUD ON/OFF]`.
-- 🍪 **Web Scraper Nativ Panou RPG (`effil_http`):** Interoghează website-ul B-Zone direct din joc pentru a vedea ce licențe pot fi reînnoite (<50h) fără a necesita fișiere externe.
+- 🍪 **Web Scraper Nativ Panou RPG (`effil_http`):** Interoghează website-ul B-Zone direct din joc pentru a vedea ce licențe pot fi reînnoite (<50h) fără a necesita fișiere externe (acum cu suport și pentru licența Hunting).
 - 🔎 **Sistem Inteligent `/id` pentru Nickname & Clan-Tags:** Comanda `/rq <ID>` trimite automat `/id` în fundal, suprimă linia serverului din chat și extrage automat numele curat al contului (indiferent dacă tag-ul de clan este la început precum `[XO]neymar.jr` sau la sfârșit precum `Adelin24[x]`).
-- 📋 **Noul Dialog "Alte Licențe" cu Live Preview:** Fereastră dedicată cu 5 checkbox-uri interactive pentru orice combinație de licențe, previzualizare în timp real a mesajului pe `/f` și formatare inteligentă (*"toate licentele"* când sunt bifate toate).
+- 📋 **Noul Dialog "Alte Licențe" cu Live Preview:** Fereastră dedicată cu 6 checkbox-uri interactive pentru orice combinație de licențe (Flying, Sailing, Fishing, Weapon, Materials, Hunting), previzualizare în timp real a mesajului pe `/f` și formatare inteligentă (*"toate licentele"* când sunt bifate toate).
 - ⛵ **Trasee Complete de Navigație (Sailing):** Butoane dedicate pentru `Sail LS (Lighthouse)`, `Sail LV (Old NG)` și `Sail SF (Bayside Docks)`.
 - ⌨️ **Ghid Interactiv cu Căutare Live (`/sih`) & Scurtături (`/short`):** Filtrare instantanee în peste 40 de comenzi și capturator grafic pentru setarea tastelor rapide (Keybinds).
 
@@ -99,19 +104,19 @@ Modul se adaptează instantaneu facțiunii din care faci parte:
 
 ### 1. Meniul Principal de Testare Licențe (`/lssi` / `/lvsi` - Level 1-49)
 ![Meniu Principal Helper](assets/menu_main.png)
-*Meniul interactiv cu 5 tab-uri pentru testarea licențelor Flying, Sailing, Fishing, Weapon și Materials, selector de limbă și pași structurați.*
+*Meniul interactiv cu 6 tab-uri pentru testarea licențelor Flying, Sailing, Fishing, Weapon, Materials și Hunting (Level 5+), selector de limbă și pași structurați.*
 
 ---
 
 ### 2. Meniul Licențe Fără Test (`/notest` - Level 50+)
 ![Meniu No-Test Licenses](assets/menu_notest_50.png)
-*Acordare rapidă fără test pentru jucătorii cu nivel 50+, cerere licențe și anunțare pe `/f`.*
+*Acordare rapidă fără test pentru jucătorii cu nivel 50+, cerere licențe și anunțare pe `/f` pentru toate cele 6 licențe.*
 
 ---
 
 ### 3. Dialogul "Alte Licențe" cu Previzualizare Live pe `/f`
 ![Dialog Alte Licente Live Preview](assets/dialog_other_lics.png)
-*Dialog dedicat cu selecție multiplă de licențe și previzualizare în timp real a mesajului de facțiune.*
+*Dialog dedicat cu selecție multiplă între cele 6 licențe și previzualizare în timp real a mesajului de facțiune.*
 
 ---
 
@@ -152,9 +157,9 @@ Modul se adaptează instantaneu facțiunii din care faci parte:
    - Fontul **FontAwesome** în `moonloader/resource/fonts/`
 
 ### Pași de Instalare:
-1. Descarcă fișierul `LSSI_helper4.0.lua`.
+1. Descarcă fișierul `LSSI_helper4.1.lua`.
 2. Plasează fișierul în folderul tău `GTA San Andreas/moonloader/`.
-3. Asigură-te că nu ai alte versiuni vechi ale helperului (`LSSI_helper3.2.lua`, `licienteboss.lua` etc.) în folderul `moonloader/`.
+3. Asigură-te că nu ai alte versiuni vechi ale helperului (`LSSI_helper4.0.lua`, `LSSI_helper3.2.lua` etc.) în folderul `moonloader/`.
 4. Intră în joc sau apasă **CTRL+R** pentru a încărca scriptul.
 
 ---
@@ -188,8 +193,8 @@ Modul se adaptează instantaneu facțiunii din care faci parte:
 | :--- | :--- | :--- |
 | `/all <ID>` | `[ID]` | Anunță pe `/f` că jucătorul este la tine pentru toate licențele (1-49). |
 | `/all50 <ID>` | `[ID]` | Anunță pe `/f` că jucătorul este la tine pentru toate licențele (50+). |
-| `/atme <ID> <1-5/all>` | `[ID] [1-5]` | Anunță licențele specificate după index (1: Fly, 2: Sail, 3: Fish, 4: Weap, 5: Mats). |
-| `/atme50 <ID> <1-5/all>`| `[ID] [1-5]` | Anunță licențele specificate după index pentru nivel 50+. |
+| `/atme <ID> <1-6/all>` | `[ID] [1-6]` | Anunță licențele specificate după index (1: Fly, 2: Sail, 3: Fish, 4: Weap, 5: Mats, 6: Hunt). |
+| `/atme50 <ID> <1-6/all>`| `[ID] [1-6]` | Anunță licențele specificate după index pentru nivel 50+. |
 
 ### 🚗 Acțiuni & Teste
 | Comandă | Descriere |
@@ -199,13 +204,14 @@ Modul se adaptează instantaneu facțiunii din care faci parte:
 | `/lvsail` | Trimite instrucțiunile pentru traseul de barcă Las Venturas (Fosta Bază NG). |
 | `/sfsail` | Trimite instrucțiunile pentru traseul de barcă San Fierro (Bayside Docks). |
 | `/fish1` - `/fish4` | Trimite pe rând întrebările pentru testul Fishing. |
-| `/weap1` - `/weap4` | Trimite pe rând întrebările pentru testul Weapon. |
+| `/weap1` - `/weap5` | Trimite pe rând întrebările pentru testul Weapon. |
 | `/mats1` - `/mats4` | Trimite pe rând întrebările pentru testul Materials. |
-| `/stfly` / `/stsail` / `/stfish` / `/stmats` / `/stweap` | Pornește lecția corespunzătoare (`/startlesson ID <tip>`). |
+| `/hunt1` - `/hunt6` | Trimite pe rând întrebările pentru testul Hunting (Level 5+). |
+| `/stfly` / `/stsail` / `/stfish` / `/stweap` / `/stmats` / `/sthunt` | Pornește lecția corespunzătoare (`/startlesson ID <tip>`) (weap/hunt: nivel 5+). |
 | `/tfail <ID>` | Pică testul unui jucător și oprește lecția automat. |
 | `/accepted <ID>` | Întreabă pe `/sx` dacă a fost acceptată cererea jucătorului. |
 | `/afvr` / `/cfvr` | Inițiază / anulează un FVR cu numărătoare inversă de 10 secunde. |
-| `/gl [ID] [1-5]` | Acordă licența corespunzătoare indexului. |
+| `/gl [ID] [1-6]` | Acordă licența corespunzătoare indexului (1: Fly, 2: Sail, 3: Fish, 4: Weap, 5: Mats, 6: Hunt). |
 
 ### ⚡ Scurtături Generale (Shortcuts)
 | Scurtătură | Comandă Executată | Descriere |
@@ -226,66 +232,72 @@ Modul se adaptează instantaneu facțiunii din care faci parte:
 
 ---
 
-## 📜 Changelog (v4.0 vs v3.2)
+## 📜 Changelog (v4.1 vs v4.0)
+
+<details open>
+<summary><b>👉 Click aici pentru a vedea noutățile din v4.1</b></summary>
+<br/>
+
+### 🏹 1. Suport Complet pentru Noua Licență Hunting (Level 5+)
+- **Tab Nou în Interfață:** Adăugat cel de-al 6-lea tab în meniul principal `/lssi` / `/lvsi` cu iconiță FontAwesome (🐾 `fa.ICON_FA_PAW`).
+- **Verificare Automată de Nivel (Level 5+):** La fel ca la licența Weapon, butonul *Startlesson* și comanda `/sthunt <ID>` verifică automat dacă jucătorul are cel puțin nivelul 5 înainte de a iniția lecția.
+- **Întrebări & Răspunsuri Bilingve (RO / EN):**
+  1. *Ce primești dacă ucizi un animal fără licență? / What do you receive if you kill an animal without a valid Hunting License?* $\rightarrow$ **Wanted 1**
+  2. *De ce altă licență ai nevoie pentru a vâna? / What other license do you need to hunt, besides the Hunting License?* $\rightarrow$ **Weapon License**
+  3. *Ce primești dacă jupoi un animal fără licență? / What do you receive if you skin an animal without a valid Hunting License?* $\rightarrow$ **Wanted 1**
+  4. *Unde poți vinde resursele obținute? / Where can you sell the resources obtained from the Hunter job?* $\rightarrow$ **Hunter Vendor**
+  5. *Ce comandă folosești pentru a începe lucrul la job? / Which command do you need to use to start working at the Hunter job?* $\rightarrow$ **/work**
+  6. *Enumeră 4 resurse pe care le poți obține după jupuire / Name 4 resources you can obtain after skinning an animal* $\rightarrow$ Lista completă de 15 resurse.
+- **Formatare Multiline Inteligentă (`printAnswer`):** Întrebarea 6 afișează răspunsul împărțit optim pe 3 rânduri în chat, fiecare rând având sub 105 caractere (respectând strict limita SA-MP de 128 caractere per mesaj).
+- **Comenzi de Chat Dedicate:** Comenzi rapide `/hunt1` până la `/hunt6` (fără comenzi secundare inutile).
+- **Integrare în Sistemul de Acordare Directă & Anunțuri:** Suport complet pentru `/gl <ID> 6`, `/atme <ID> 6` și `/atme50 <ID> 6`.
+- **Extindere Meniu No-Test & Auto50:** Hunting License este integrată nativ în `/notest`, `/auto50` și în dialogul "Alte Licențe" (`/otherlics`).
+- **Web Scraper & Chat Hooks:** Recunoaștere automată la acordarea licenței pe chat și suport pentru interogarea statusului din Panoul RPG.
+
+### 🎨 2. Rafinări de Interfață & Ajustări Grafice
+- **Optimizare Navbar:** Lățimea butonului *Materials* a fost mărită la 98px pentru vizibilitate perfectă a textului alături de noul buton *Hunting*.
+- **Calibrare Fereastră:** Lățimea ferestrei principale a fost setată la 670px pentru a acomoda confortabil toate cele 6 tab-uri fără scroll orizontal.
+- **Grid Butoane Întrebări:** Dispunere echilibrată 2 rânduri x 3 coloane pentru întrebările de Hunting în meniul GUI.
+- **Actualizare Ghid `/sih`:** Corectat indexul comenzilor de Weapon (`/weap1-5`) și adăugată comanda `/hunt(1-6)`.
+
+</details>
+
+<br/>
 
 <details>
-<summary><b>👉 Click aici pentru a extinde Changelog-ul complet (v4.0 vs v3.2)</b></summary>
+<summary><b>📜 Istoric Versiuni Anterioare: Changelog v4.0 vs v3.2 (Arhivă)</b></summary>
 <br/>
 
 ### 🌟 1. Interfață Grafică Modernă & Design (#00FF78 Neon Dark)
-- **Design & Temă:** Înlocuit stilul ImGui clasic cu o temă modernă **#00FF78 Emerald Neon Dark**, colțuri rotunjite (`Rounding = 10`), fundaluri glassmorphic și butoane iluminate.
-- **Iconițe Vectoriale:** Integrat **FontAwesome 5/6** nativ (pictograme pentru avioane, bărci, ținte, megafoane, cookie-uri, statusuri etc.).
-- **Animații Fluide:** Adăugate tranziții de fade (`animAlphas`) la deschiderea ferestrelor și la schimbarea tab-urilor de licențe.
-- **Comutator Limbă în Navbar:** Buton persistent de schimbare a limbii (`[ 🔄 Romana / English ]`) direct în bara de sus a meniurilor, cu salvare automată în config.
+- Înlocuit stilul ImGui clasic cu o temă modernă **#00FF78 Emerald Neon Dark**, colțuri rotunjite, fundaluri glassmorphic și iconițe vectoriale **FontAwesome 5/6**.
+- Tranziții fluide de fade (`animAlphas`) și comutator bilingv persistent (`[ 🔄 Romana / English ]`) în navbar.
 
 ### 🏢 2. Suport Dual de Facțiuni (LSSI & LVSI)
-- **Selector Facțiune:** Comandă dedicată `/selectfaction [LSSI/LVSI]` și panou grafic în `/sih` Tab 2.
-- **Dinamicitate Completă:** Titlurile ferestrelor, mesajele de chat, comenzile principale (`/lssi` vs `/lvsi`) și HUD-ul se adaptează instantaneu facțiunii alese.
+- Comandă dedicată `/selectfaction [LSSI/LVSI]` și panou grafic în `/sih` Tab 2.
+- Toate mesajele, titlurile și comenzile se adaptează instantaneu între LSSI și LVSI.
 
 ### 🏎️ 3. Randare 3D Modele Vehicule & HUD Calibrat
-- **Model 3D Textdraw Calibrat:** Randare nativă SA-MP a Maverick-ului și Speeder-ului fără fundal negru (`box = 0`), scalat precis și rotit cu botul spre text (`rotZ = -50.0`), colorat în culorile facțiunii (`128, 128`).
-- **HUD HP Dinamic:** Afișează în stânga ecranului bara de viață a vehiculului, HP-ul în timp real, licența activă și numele clientului.
-- **Buton Local de Toggle:** Buton `[ HP HUD ON/OFF ]` la Pasul 3 de testare (Flying & Sailing) pentru a afișa/ascunde HUD-ul instantaneu la nevoie.
+- Randare nativă SA-MP a Maverick-ului și Speeder-ului fără fundal negru, orientat spre text.
+- Bară HP dinamică în timp real și buton local de toggle `[ HP HUD ON/OFF ]`.
 
 ### 🍪 4. Integrare Panou RPG B-Zone & Session Cookie
-- **Web Scraper Nativ Asincron:** Integrat direct motorul `effil_http` în scriptul principal — nu mai este nevoie de scripturi externe separate (precum vechiul `licienteboss`).
-- **Meniu Cookie & Panou (`/sih` Tab 3 / `/licmenu`):** Fereastră dedicată pentru introducerea cookie-ului `bzonerpg=...`, salvare, ștergere și buton de verificare a stării sesiunii (`VALID` / `INVALID`).
-- **Tooltip Pas cu Pas (`(?)`):** Ghid detaliat despre cum se obține cookie-ul din Developer Tools (Network ➔ `general` ➔ Response Headers) + avertisment one-time setup.
+- Web Scraper asincron nativ via `effil_http` direct în script.
+- Configurare cookie `bzonerpg=...` din `/sih` Tab 3 / `/licmenu` cu ghid pas cu pas.
 
 ### 🔎 5. Sistem Inteligent `/id` pentru Nickname & Clan Tags
-- **Interogare Automată `/id`:** La comanda `/rq <ID>` sau la căutarea după ID din `/sih`, scriptul trimite automat `/id <ID>` în fundal fără a deschide sau scrie ceva în chat.
-- **Suprimare Răspuns Server:** Linia brută de `/id` a serverului este ascunsă automat din chat pe durata verificării.
-- **Parser Universal de Clan Tags:** Elimină automat tag-ul de clan din paranteze drepte `[TAG]`, indiferent de poziție (la început: `[XO]neymar.jr` ➔ `neymar.jr`, la sfârșit: `Adelin24[x]` ➔ `Adelin24`, `Rodrygo[ToV]` ➔ `Rodrygo`) sau pentru civili (`NumeJucator`).
-- **Rezultat Ultra-Curat (1 linie):** Afișează direct pe chat doar licențele ce pot fi reînnoite (sub 50h).
+- Interogare automată `/rq <ID>` cu suprimare linie server din chat și parser universal de clan tags la început sau la sfârșit (`[XO]neymar.jr` sau `Adelin24[x]`).
 
 ### 📋 6. Noul Dialog "Alte Licențe" cu Live Preview pe `/f`
-- **Fereastră Dedicată (`/otherlics` / `/flics`):** Înlocuit pop-up-urile vechi care se blocau cu un dialog ImGui dedicat, accesibil din `/lssi`, `/notest` sau prin comandă de chat.
-- **5 Checkbox-uri Interactive:** Posibilitatea de a selecta orice combinație de licențe cu butoane rapide `[ Toate ]` și `[ Niciuna ]`.
-- **Live Preview Card:** Afișează în timp real exact textul ce va fi trimis pe `/f`.
-- **Formatare Inteligentă:** Când sunt bifate toate cele 5 licențe, scrie automat formatul curat `... la mine pentru toate licentele.` (în loc să le înșire pe toate).
-- **Butoane de Acțiune:** `[ 🚀 Trimite Anunțul (OK) ]` și `[ ❌ Anulează ]`.
+- Fereastră dedicată (`/otherlics` / `/flics`) cu preview în timp real al mesajului de facțiune.
 
 ### ⛵ 7. Trasee Navigație Complete (Sailing)
-- **Toate cele 3 Trasee Disponibile:**
-  - `Sail LS (Lighthouse)` ➔ `/lssail`
-  - `Sail LV (Old NG)` ➔ `/lvsail`
-  - `Sail SF (Bayside Docks)` ➔ `/sfsail`
-- Buton dedicat pentru `Sail SF` adăugat la Pasul 4 din tab-ul Sailing pe un rând compact de 3 butoane.
-
-### 📚 8. Meniuri Noi: `/sih` (Ghid & Setări) și `/short` (Scurtături)
-- **Ghid Interactiv cu Căutare (`/sih`):** Căutare live și filtrare instantanee în peste 40 de comenzi LSSI.
-- **Capturator Grafic de Taste:** Rebind interactiv pentru `/lssi` și meniul secundar (`/notest` / `/auto50`) direct din interfață.
-- **Meniu Scurtături (`/short`):** Listă filtrabilă cu toate cele 30+ scurtături utile (`/sa`, `/sp`, `/cf`, `/dt`, `/ra`, `/sj`, `/bg`, `/rr`, `/afvr`, `/cmc` etc.).
-
-### ⚙️ 9. Arhitectură, Performanță & Siguranță
-- **Cod Modular:** Structurat în 13 secțiuni bine delimitate, eliminând funcțiile repetitive hardcodate prin tabele de configurare și generatoare dinamice.
-- **`safeRegisterCmd`:** Previne conflictele din memorie la reîncărcarea scriptului prin dezînregistrarea automată a comenzilor vechi.
+- Butoane dedicate pentru toate cele 3 trasee: LS Lighthouse, LV Old NG, SF Bayside Docks.
 
 </details>
 
 ---
 
-## 👨‍💻 Autor & Credite
+## 👨💻 Autor & Credite
 
 - **Autor:** SyLvy
 - **Discord:** `sylwy`
